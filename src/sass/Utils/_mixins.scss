@@ -1,0 +1,19 @@
+@mixin button($color){
+    border: 1px solid $color;
+    width: 200px;
+    color: $color;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 40px;
+    transition: .15s;
+    &:active{
+        transform: scale(.95)
+    }
+   
+}
+@mixin text-regular{
+    font-size: 14px;
+    line-height: 1.5;
+    color: $color-text;
+}

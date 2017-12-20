@@ -1,0 +1,80 @@
+section.main{
+    height: 100vh;
+    background-image:url("../img/foto1.jpg");
+    background-size:cover;
+    position: relative;
+    background-position: center;
+.arrow-left, .arrow-right{
+    position: absolute;
+    top:50%;
+    color:$color-white;
+    font-size: 40px;
+    padding: 8px 15px;
+  
+    border: 2px solid $color-white;
+    cursor: pointer;
+user-select: none;
+transition: .15s;
+&:active{
+    transform: scale(0.95)
+}
+
+}
+.arrow-left{
+    left: 20px;
+}
+.arrow-right{
+    right: 20px;
+}
+.title{
+    position: absolute;
+    top:50%;
+   
+    width: 100%;
+    transform: translate(-50% -50%);
+h1{
+    font-size: 42px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $color-white;
+
+}
+p{
+    font-size: 14px;
+    color: $color-white;
+    line-height: 1.4;
+    width: 36%;
+    margin: 20px auto;
+
+}
+.button-info{
+    @include button($color-white)
+
+}
+}
+}
+section.features{
+    background: $color-shadow;
+    padding: 50px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .wrapper{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    .fa{
+        font-size: 60px;
+    }
+    h2{
+        color: $color-blue;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    p{
+        @include text-regular;
+    }
+
+}

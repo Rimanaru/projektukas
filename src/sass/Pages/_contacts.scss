@@ -1,0 +1,39 @@
+section.contacts{
+   
+    
+    .container{
+        h1{
+            color: $color-blue;
+            text-transform: uppercase;
+            border-bottom: 1px solid $color-blue;
+            width: 5%;
+            font-size: 20px;
+            margin-bottom: 40px;
+            margin-top: 20px;
+        }
+        .main{display: flex;
+            flex-wrap: wrap;
+       
+    input{
+   
+        width:44%;
+        height:40px; 
+        margin-bottom: 20px;
+        margin-right: 5%;
+        margin-top: 20px;
+        
+    }
+    .button{
+        border: 1px solid $color-blue;
+        background: $color-blue;
+        width: 8%;
+        color: $color-white;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-top: 20px;
+
+    }
+   
+}
+}  
+    }
