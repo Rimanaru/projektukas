@@ -32,7 +32,47 @@
 
 </div>
 </section>
-
+<section class="recent-projects">
+<div class="container">
+<h2>recent-projects</h2>
+<div class="slide-box">
+<div class="slide">
+<img src="img/projektas/foto2.jpg" alt="">
+</div>
+<div class="slide">
+<img src="img/projektas/foto2.jpg" alt="">
+</div>
+<div class="slide">
+<img src="img/projektas/foto2.jpg" alt="">
+</div>
+<div class="navigation">
+<div class="left"></div>
+<div class="right"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="counters">
+  <div class="container">
+  <div class="wrapper">
+    <h2>456</h2>
+    <h3>Happy clients</h3>
+  </div>
+  <div class="wrapper">
+    <h2>456</h2>
+    <h3>Happy clients</h3>
+  </div>
+  <div class="wrapper">
+    <h2>456</h2>
+    <h3>Happy clients</h3>
+  </div>
+  <div class="wrapper">
+    <h2>456</h2>
+    <h3>Happy clients</h3>
+  </div>
+  </div>
+</section>
+<?php include 'Components/footer.php' ?>
 </body>
 </html>
 

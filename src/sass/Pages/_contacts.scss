@@ -1,15 +1,12 @@
+section.top{
+    @include section-top;
+ }
 section.contacts{
    
     
     .container{
         h1{
-            color: $color-blue;
-            text-transform: uppercase;
-            border-bottom: 1px solid $color-blue;
-            width: 5%;
-            font-size: 20px;
-            margin-bottom: 40px;
-            margin-top: 20px;
+            @include section-header();
         }
         .main{display: flex;
             flex-wrap: wrap;

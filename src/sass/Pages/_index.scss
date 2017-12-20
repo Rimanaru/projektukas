@@ -74,7 +74,56 @@ section.features{
         text-transform: uppercase;
     }
     p{
-        @include text-regular;
+        @include text-regular();
     }
 
+}
+section.recent-projects{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    h2{
+        @include section-header();
+    }
+    .slide-box{
+        display: flex;
+        justify-content: space-between;
+
+        .slide{
+            width: 30%;
+            padding-top: 50px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+   
+    
+    .navigation{
+        display: flex;
+        justify-content: flex-end;
+        .fa{
+            color:$color-white;
+            background: $color-blue;
+        }
+    }
+}
+section.counters{
+    
+    .container{
+    display: flex;
+    justify-content:space-between;
+    background: $color-blue;
+    .wrapper{
+        width: 25%;  
+    }
+    h2{
+        font-size: 50px;
+        font-weight: 700;
+        color:$color-white;
+    }
+    h3{
+       font-size:  20px;
+       color:$color-white;
+    }
+}
 }

@@ -7,6 +7,14 @@
 <body>
 
 <?php include 'components/header.php'?>
+
+<section class="top">
+<div class="container">
+        <h3>Contacts</h3>
+   <p>Home>Contacts</p> 
+            
+        </div>
+</section>
 <section class="contacts">
 
 <div class="container">
@@ -31,7 +39,7 @@
 
 </section>
 
-
+<?php include 'Components/footer.php' ?>
 
 </body>
 

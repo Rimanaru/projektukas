@@ -23,7 +23,7 @@
                 <img src="img/logo.png" alt="logo"></a>
                 <nav>
                     <a href="header.php">Home</a>
-                    <a href="">About</a>
+                    <a href="about.php">About</a>
                     <a href="">Pages</a>
                     <a href="">Projects</a>
                     <a href="">Blog</a>
